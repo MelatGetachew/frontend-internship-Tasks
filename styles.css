@@ -178,7 +178,7 @@ body {
 }
 
 .flip-card-back {
-    background-color: #ffffff;
+    background-color: #ebe5e5;
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
 }
