@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Molecule Card</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="card-container" id="card-container">
+    <div class="card-header">
+        <span class="hint-wrapper">
+            <span class="hint-icon">💡</span>
+            <span class="hint-text">Get a hint</span>
+        </span>
+        <span class="star-icon">⭐</span>
+    </div>
+
+    <div class="card-body">
+        <pre class="chemical-structure">
+H
+|
+H-C-O-H
+|
+H
+        </pre>
+    </div>
+
+    <div class="card-footer">
+        <button class="control-button play-button">▶</button>
+        <button class="control-button shuffle-button">🔀</button>
+        <div class="pagination">
+            <button class="nav-button prev-button">←</button>
+            <span class="page-info">1 / 67</span>
+            <button class="nav-button next-button">→</button>
+        </div>
+        <button class="control-button fullscreen-button">Fullscreen</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
